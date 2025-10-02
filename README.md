@@ -8,7 +8,7 @@
 ## 🎮 Play Live 🕹
 
 Try the game right now in your browser:  
-🌟 **[Play Space Wars Live!](space-wars-lyart.vercel.app)** 🌟  
+🌟 **[Play Space Wars Live!](https://space-wars-lyart.vercel.app/)** 🌟  
 
 ---
 
