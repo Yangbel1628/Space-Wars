@@ -1,6 +1,7 @@
 # 🚀 Space Wars 🌌
 
-![Space Wars Banner](./screenshots/game-play.png)
+![Space Wars Banner](./screenshot<img width="1879" height="869" alt="Screenshot 2025-10-03 011942" src="https://github.com/user-attachments/assets/5216bac2-7a6b-4c5d-8f03-b16a74e6fb39" />
+s/game-play.png)
 
 > Dodge meteors, catch stars, and conquer the galaxy in this retro-style spaceship adventure! ✨🛸💥  
 
