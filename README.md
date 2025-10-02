@@ -46,10 +46,10 @@ Try the game right now in your browser:
 
 ## 🖼 Screenshots
 
-![Gameplay](./screenshots/game-play.png)  
+![Gameplay]<img width="1847" height="883" alt="Screenshot 2025-10-03 012205" src="https://github.com/user-attachments/assets/0de59d2d-9ccf-40ed-967e-d441550e36e2" />
 *Spaceship dodging meteors and collecting stars*  
 
-![Game Over](./screenshots/game-over.png)  
+![Game Over]<img width="1836" height="882" alt="Screenshot 2025-10-03 012434" src="https://github.com/user-attachments/assets/88923f17-028f-47f5-9fdb-781ade206c84" /> 
 *Game over screen with score and restart button*  
 
 ---
