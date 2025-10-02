@@ -1,0 +1,162 @@
+.App {
+  font-family: 'Press Start 2P', monospace;
+  text-align: center;
+  color: #00ffea;
+  background: black;
+}
+
+/* Home screen starfield */
+.starfield {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.home-screen {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Moving background — will be set via inline style in React */
+.home-banner {
+  position: relative;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 20px;
+  border: 3px solid #00ffea;
+}
+
+.home-title {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #00ffea;
+  text-shadow: 0 0 5px #00ffea, 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+}
+
+.neon-glow {
+  animation: neon-flicker 1.5s infinite;
+}
+
+@keyframes neon-flicker {
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px #00ffea, 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+.home-sub {
+  font-size: 18px;
+  color: #ff00ff;
+  text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+}
+
+.arcade-blink {
+  animation: blink 0.8s infinite;
+}
+
+.start-button {
+  padding: 10px 25px;
+  font-size: 18px;
+  margin-top: 15px;
+  cursor: pointer;
+  border: 2px solid #00ffea;
+  border-radius: 10px;
+  background: black;
+  color: #00ffea;
+  text-shadow: 0 0 5px #00ffea, 0 0 10px #ff00ff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.start-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #00ffea;
+}
+
+.leaderboard {
+  margin-top: 20px;
+  border: 2px solid #ff00ff;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.leaderboard-title {
+  margin: 0 0 10px 0;
+  color: #ff00ff;
+}
+
+.leaderboard ol {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.leaderboard li {
+  margin-bottom: 5px;
+  color: #00ffea;
+}
+
+@keyframes blink {
+
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0.3;
+  }
+}
+
+/* back button for game screen */
+.back-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 10px;
+  border: 2px solid #00ffea;
+  border-radius: 5px;
+  background: black;
+  color: #00ffea;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.back-button:hover {
+  box-shadow: 0 0 10px #00ffea;
+}
+
+/* Moving background animation */
+@keyframes slideBg {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 2000px;
+  }
+}
